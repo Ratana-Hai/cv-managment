@@ -1,0 +1,153 @@
+.m-form .m-form__group {
+    padding-top: 0px !important;
+    padding-bottom: 0px !important;
+}
+
+input[type=checkbox]
+{
+  -ms-transform: scale(1.3); /* IE */
+  -moz-transform: scale(1.3); /* FF */
+  -webkit-transform: scale(1.3); /* Safari and Chrome */
+  -o-transform: scale(1.3); /* Opera */
+  padding: 10px;
+}
+
+/* Might want to wrap a span around your checkbox text */
+.checkboxtext
+{
+  /* Checkbox text */
+  font-size: 110%;
+  display: inline;
+}
+
+.col-form-label, .table-bordered thead th, .table-bordered thead td{
+	font-family: 'Battambang', Poppins;
+	font-size: 12px;
+  border-color:white;
+}
+
+.m-width-200{
+	width: 200px;
+}
+
+.m-width-100{
+	width: 100px;
+}
+
+.m-width-150{
+	width: 150px;
+}
+
+.msg-inside-table{
+	color: #ffb822 !important;
+}
+
+.label-required{
+	color: #ff002a;
+}
+
+.table-bordered th, .table-bordered td{
+	font-family: 'Battambang', Poppins;
+	font-size: 12px;
+  border-color:white;
+}
+
+.form-control, .m-portlet__head-text, .m-menu__link-text, .select2-selection__placeholder .m-portlet__head-text, .span-text{
+	font-family: 'Battambang', Poppins !important;
+
+}
+
+.vertical-center {
+    vertical-align: middle !important;
+}
+
+.my-float-right{
+	float: right;
+}
+.Mypdf{
+  background-image:  url('<?=$url?>assets/img/ss.png');
+  height:1750px;;
+}
+.align-right{
+  text-align: right;
+}
+.table-responsive .table {
+    max-width: none;
+    -webkit-overflow-scrolling: touch !important;
+}
+.calulate {
+  font-style: Bold;
+  color: #2F3A9A;
+
+}
+.account{
+  color: #0D0E18;
+
+}
+.m-portlet{
+  background: #E5F7ED;
+}
+.m-portlet__head , .table_header{
+
+  background: linear-gradient(to bottom,#029E55, #10603F);
+}
+
+#header{
+  color:white;
+  text-shadow:2px 1px 5px #000000;
+}
+#title{
+  color:black;
+  text-shadow:1px 0px 1px #757575;
+}
+#footer{
+  background: #E5F7ED;
+}
+.btn-info{
+    -moz-box-shadow: 1px 1px 0px  #0076D1;
+    -webkit-box-shadow: 1px 1px 0px  #0076D1;
+    box-shadow: 1px 1px 0px  #0076D1;
+}
+.btn-danger{
+  -moz-box-shadow: 1px 1px 0px  #CE2541;
+  -webkit-box-shadow: 1px 1px 0px  #CE2541;
+  box-shadow: 1px 1px 0px  #CE2541;
+}
+.btn-primary{
+  -moz-box-shadow: 1px 1px 0px  #4956B7;
+  -webkit-box-shadow: 1px 1px 0px  #4956B7;
+  box-shadow: 1px 1px 0px  #4956B7;
+}
+.btn-warning{
+  -moz-box-shadow: 1px 1px 0px  #D89D1C;
+  -webkit-box-shadow: 1px 1px 0px  #D89D1C;
+  box-shadow: 1px 1px 0px  #D89D1C;
+}
+#icon{
+  color: #36A3F7;
+}
+.nav.nav-tabs,.nav.nav-tabs .nav-link,.nav.nav-pills .nav-link,.nav.nav-tabs .nav-item{
+  border-bottom:inset 1px #ffff;
+}
+.nav.nav-tabs .nav-item  {
+  background: #8C99FF;
+}
+.nav.nav-pills .nav-link, .nav.nav-tabs .nav-link,.nav.nav-tabs .nav-item{
+  -moz-border-radius-topleft: 10px;
+  -moz-border-radius-topright:10px;
+
+  -webkit-border-top-left-radius:10px;
+  -webkit-border-top-right-radius:10px;
+
+  border-top-left-radius:10px;
+  border-top-right-radius:10px;
+  margin-right:-0.5%;
+
+}
+.nav.nav-pills .nav-link, .nav.nav-tabs .nav-link:hover{
+  border-bottom:inset 1px #ffff;
+  border: none;
+}
+.table-hover >tbody>tr{
+  cursor: pointer;
+}

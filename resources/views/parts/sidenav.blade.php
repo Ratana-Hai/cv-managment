@@ -2,8 +2,7 @@
 <aside class="app-sidebar">
   <div class="app-sidebar__user">
     <div>
-      <p class="app-sidebar__user-name">John Doe</p>
-      <p class="app-sidebar__user-designation">Frontend Developer</p>
+      <p class="app-sidebar__user-name">ប្រព័ន្ធគ្រប់គ្រងឈ្មោះកងទ័ពជើងទឹក</p>
     </div>
   </div>
   <ul class="app-menu">

@@ -394,7 +394,7 @@
       <div class="col-md-4">
           <div class="tile card-profile">
               <div class="mx-5">
-                  <a href="#pablo" id="img">
+                  <a href="#pablo" class="img1">
                     <form id="myProfile">
                       <img class="img"  src="/img/b1.png" width="180" height="180" alt="">
                       <input type="hidden" name="ImageID" id="thisImage" value="">
@@ -402,12 +402,12 @@
                     </form>
 
 
-
                   </a>
 
               </div>
               <br>
               <div class="tile-body text-center">
+                <button type="button" class="btn btn-outline-info img1 col-md-4"  name="button"> <i class="fa fa-picture-o fa-5x" aria-hidden="true"></i></button>
 
                   <h4 class="card-title"></h4>
 
@@ -480,7 +480,7 @@ $('.demoDate').datepicker({
 </script>
 <script type="text/javascript">
   $(function(){
-    $('#img').on('click',function(){
+    $('.img1').on('click',function(){
       $('#uploadimageModal').modal('show');
     });
       $('#save').on('click',function(){
